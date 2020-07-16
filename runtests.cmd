@@ -6,7 +6,7 @@
     echo "MSBuild is not in your PATH. Please use a developer command prompt!"
     goto :end
 ) ELSE (
-    MSBuild.exe "Active-Active.csproj"
+    MSBuild.exe "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin"
 )
 
 @if ERRORLEVEL 1 goto end
