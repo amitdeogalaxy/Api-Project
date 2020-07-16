@@ -1,0 +1,43 @@
+﻿2020-06-29T15:19:43.0283108+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-06-29T15:19:43.0283108+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.14 in Framework clr40 in x86 mode execution started
+2020-06-29T15:19:43.0283108+05:30;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\amitk\source\repos\Active-Active\packages\SpecRun.Runner.3.3.14\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-06-29T15:19:43.0283108+05:30;VSTestExecutionThread;Info;Current UserName: 'amitk', MachineName: 'AMITKUMARDEO'
+2020-06-29T15:19:43.3318579+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\amitk\source\repos\Active-Active\bin\Debug\Active-Active.dll
+2020-06-29T15:19:43.3328559+05:30;VSTestExecutionThread;Info;Output folder configured to "C:\Users\amitk\source\repos\Active-Active\TestResults" (default)
+2020-06-29T15:19:43.3338534+05:30;VSTestExecutionThread;Info;Profile: 
+2020-06-29T15:19:44.8747699+05:30;VSTestExecutionThread;Info;Log file path: C:\Users\amitk\source\repos\Active-Active\TestResults\Unnamed project__2020-06-29T151943.log
+2020-06-29T15:19:45.4004109+05:30;Thread#12;Info;Checking activation
+2020-06-29T15:19:52.0524815+05:30;Thread#12;Info;Activated.
+2020-06-29T15:19:52.0534793+05:30;Thread#12;Info;Activation check completed
+2020-06-29T15:19:52.0534793+05:30;Thread#12;Info;Starting test run
+2020-06-29T15:20:23.3862327+05:30;Thread#12;Info;Discovering target: Default
+2020-06-29T15:20:23.3872340+05:30;Thread#12;Info;Discovering tests from assembly: C:\Users\amitk\source\repos\Active-Active\bin\Debug\Active-Active.dll
+2020-06-29T15:20:57.2123667+05:30;Thread#12;Info;Discovered tests from assembly: C:\Users\amitk\source\repos\Active-Active\bin\Debug\Active-Active.dll
+2020-06-29T15:20:57.2144132+05:30:Test Suite Dump
+2020-06-29T15:20:57.2174501+05:30:#0: Unnamed project/ - 
+2020-06-29T15:20:57.2174501+05:30:#1: Default - 
+2020-06-29T15:20:57.2174501+05:30:#2: Active-Active - 
+2020-06-29T15:20:57.2174501+05:30:#3: GetRequest - 
+2020-06-29T15:20:57.6725800+05:30:#4: Creating a Get Request - TestAssembly:Active-Active/Feature:GetRequest/Scenario:Creating+a+Get+Request
+2020-06-29T15:20:57.6725800+05:30:End: Test Suite Dump
+2020-06-29T15:20:58.2683804+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T15:20:58.6097825+05:30:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-06-29T15:20:58.6097825+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-06-29T15:20:58.7104176+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T15:20:58.7104176+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-06-29T15:20:58.7104176+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-06-29T15:20:58.7104176+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-06-29T15:20:58.7124131+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-06-29T15:20:58.7144075+05:30:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T15:20:58.7204309+05:30:Thread #0: creating new test thread executor for Active-Active, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-06-29T15:20:58.7244768+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-29T15:21:03.1388869+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-29T15:21:03.1418815+05:30:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-06-29T15:21:33.0171314+05:30:Thread#0:T:-> Loading plugin C:\Users\amitk\source\repos\Active-Active\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-06-29T15:21:33.3206899+05:30:Thread#0:T:-> Using default config
+2020-06-29T15:21:48.2442931+05:30:Thread#0: Test #4/0 is started on thread #0
+2020-06-29T15:21:48.9637627+05:30:Thread#0:B:Given I have a URI for a Connection
+2020-06-29T15:21:49.5352914+05:30:Thread#0:T:done: GetRequestSteps.GivenIHaveAURIForAConnection() (0.0s)
+2020-06-29T15:21:49.5472602+05:30:Thread#0:B:When Endpoints are mentioned
+2020-06-29T15:21:49.6070999+05:30:Thread#0:T:done: GetRequestSteps.WhenEndpointsAreMentioned() (0.0s)
+2020-06-29T15:21:49.6080973+05:30:Thread#0:B:Then Create a Get Request

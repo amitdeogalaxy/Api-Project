@@ -1,0 +1,111 @@
+﻿2020-07-15T19:44:29.7428790+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-07-15T19:44:29.7428790+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.17 in Framework clr40 in x86 mode execution started
+2020-07-15T19:44:29.7428790+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\Project\Active-Active\packages\SpecRun.Runner.3.3.17\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-07-15T19:44:29.7437584+05:30;VSTestExecutionThread;Info;Current UserName: 'adeo', MachineName: 'GNLNB-PG018YN0'
+2020-07-15T19:44:29.7727269+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T19:44:29.7737293+05:30;VSTestExecutionThread;Info;Output folder configured to "D:\Project\Active-Active\TestResults" (default)
+2020-07-15T19:44:29.7737293+05:30;VSTestExecutionThread;Info;Profile: 
+2020-07-15T19:44:29.9440902+05:30;VSTestExecutionThread;Info;Log file path: D:\Project\Active-Active\TestResults\Unnamed project__2020-07-15T194429.log
+2020-07-15T19:44:29.9720025+05:30;Thread#18;Info;Checking activation
+2020-07-15T19:44:30.0870966+05:30;Thread#18;Info;Activated.
+2020-07-15T19:44:30.0882163+05:30;Thread#18;Info;Activation check completed
+2020-07-15T19:44:30.0882163+05:30;Thread#18;Info;Starting test run
+2020-07-15T19:44:30.1980388+05:30;Thread#18;Info;Discovering target: Default
+2020-07-15T19:44:30.1989665+05:30;Thread#18;Info;Discovering tests from assembly: D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T19:44:30.4918107+05:30;Thread#18;Info;Discovered tests from assembly: D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T19:44:30.4921405+05:30:Test Suite Dump
+2020-07-15T19:44:30.4940843+05:30:#0: Unnamed project/ - 
+2020-07-15T19:44:30.4940843+05:30:#1: Default - 
+2020-07-15T19:44:30.4940843+05:30:#2: Active-Active - 
+2020-07-15T19:44:30.4940843+05:30:#3: SimpleGetRequest - 
+2020-07-15T19:44:30.4970794+05:30:#4: Creating a simple Get Request - TestAssembly:Active-Active/Feature:SimpleGetRequest/Scenario:Creating+a+simple+Get+Request
+2020-07-15T19:44:30.4970794+05:30:End: Test Suite Dump
+2020-07-15T19:44:30.5187333+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T19:44:30.5207600+05:30:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-07-15T19:44:30.5207600+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-07-15T19:44:30.5247504+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-07-15T19:44:30.5247504+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-07-15T19:44:30.5247504+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-07-15T19:44:30.5247504+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-07-15T19:44:30.5257496+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-07-15T19:44:30.5268544+05:30:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-07-15T19:44:30.5288692+05:30:Thread #0: creating new test thread executor for Active-Active, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-07-15T19:44:30.5307350+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-07-15T19:44:30.5327282+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-07-15T19:44:30.5337530+05:30:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-07-15T19:44:30.6616111+05:30:Thread#0:T:-> Loading plugin D:\Project\Active-Active\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-07-15T19:44:30.6735369+05:30:Thread#0:T:-> Using default config
+2020-07-15T19:44:31.2700740+05:30:Thread#0: Test #4/0 is started on thread #0
+2020-07-15T19:44:31.2999476+05:30:Thread#0:B:Given I have Api url
+2020-07-15T19:44:31.4259221+05:30:Thread#0:T:error: Object reference not set to an instance of an object.
+2020-07-15T19:44:31.4269520+05:30:Thread#0:B:And I have URI
+2020-07-15T19:44:31.4278754+05:30:Thread#0:T:skipped because of previous errors
+2020-07-15T19:44:31.4310041+05:30:Thread#0:B:When I hit a Restsharp Get Request
+2020-07-15T19:44:31.4310041+05:30:Thread#0:T:skipped because of previous errors
+2020-07-15T19:44:31.4310041+05:30:Thread#0:B:Then I Verify the Result
+2020-07-15T19:44:31.4310041+05:30:Thread#0:T:skipped because of previous errors
+2020-07-15T19:44:31.4867792+05:30:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2020-07-15T19:44:31.4867792+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T19:44:31.4867792+05:30:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-07-15T19:44:31.4867792+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-07-15T19:44:31.4867792+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-07-15T19:44:31.4867792+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-07-15T19:44:31.4867792+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-07-15T19:44:31.4867792+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-07-15T19:44:31.4867792+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-07-15T19:44:31.4867792+05:30:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-07-15T19:44:31.4977936+05:30:Thread#0: Test #4/0 is finished on thread #0 as Failed within 0.2257148 seconds
+2020-07-15T19:44:31.4991079+05:30:Thread#0: Test #4/1 is started on thread #0
+2020-07-15T19:44:31.4991079+05:30:Thread#0:B:Given I have Api url
+2020-07-15T19:44:31.5011768+05:30:Thread#0:T:error: Object reference not set to an instance of an object.
+2020-07-15T19:44:31.5011768+05:30:Thread#0:B:And I have URI
+2020-07-15T19:44:31.5011768+05:30:Thread#0:T:skipped because of previous errors
+2020-07-15T19:44:31.5011768+05:30:Thread#0:B:When I hit a Restsharp Get Request
+2020-07-15T19:44:31.5011768+05:30:Thread#0:T:skipped because of previous errors
+2020-07-15T19:44:31.5011768+05:30:Thread#0:B:Then I Verify the Result
+2020-07-15T19:44:31.5011768+05:30:Thread#0:T:skipped because of previous errors
+2020-07-15T19:44:31.5020808+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T19:44:31.5020808+05:30:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-07-15T19:44:31.5020808+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-07-15T19:44:31.5020808+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-07-15T19:44:31.5020808+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-07-15T19:44:31.5020808+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-07-15T19:44:31.5020808+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-07-15T19:44:31.5020808+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-07-15T19:44:31.5020808+05:30:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-07-15T19:44:31.5030788+05:30:Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0029729 seconds
+2020-07-15T19:44:31.5032092+05:30:Thread#0: Test #4/2 is started on thread #0
+2020-07-15T19:44:31.5032092+05:30:Thread#0:B:Given I have Api url
+2020-07-15T19:44:31.5050721+05:30:Thread#0:T:error: Object reference not set to an instance of an object.
+2020-07-15T19:44:31.5050721+05:30:Thread#0:B:And I have URI
+2020-07-15T19:44:31.5050721+05:30:Thread#0:T:skipped because of previous errors
+2020-07-15T19:44:31.5050721+05:30:Thread#0:B:When I hit a Restsharp Get Request
+2020-07-15T19:44:31.5050721+05:30:Thread#0:T:skipped because of previous errors
+2020-07-15T19:44:31.5050721+05:30:Thread#0:B:Then I Verify the Result
+2020-07-15T19:44:31.5050721+05:30:Thread#0:T:skipped because of previous errors
+2020-07-15T19:44:31.5060702+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T19:44:31.5060702+05:30:Thread#:Scheduler: at the end of normal test queue
+2020-07-15T19:44:31.5060702+05:30:Thread#0:Scheduler: enumerator for thread is at end
+2020-07-15T19:44:31.5060702+05:30:Thread#0:Scheduler: No more tests for thread
+2020-07-15T19:44:31.5071039+05:30:Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0038947 seconds
+2020-07-15T19:44:31.5397582+05:30:Trying to cancel thread
+2020-07-15T19:44:31.5397582+05:30:Thread cancelled
+2020-07-15T19:44:31.5478382+05:30:Thread#-1:Scheduler: get next test for thread -1
+2020-07-15T19:44:31.5478382+05:30:Thread#:Scheduler: at the end of normal test queue
+2020-07-15T19:44:31.5478382+05:30:Thread#-1:Scheduler: enumerator for thread is at end
+2020-07-15T19:44:31.5567687+05:30;Thread#18;Info;test run finished
+2020-07-15T19:44:31.5580184+05:30;Thread#18;Info;publishing test results
+2020-07-15T19:44:31.5707544+05:30;Thread#18;Info;test results published
+2020-07-15T19:44:31.5717952+05:30;Thread#18;Info;generating reports
+2020-07-15T19:44:31.7266466+05:30;Thread#18;Info;Starting external report generation process
+2020-07-15T19:44:33.5721020+05:30;Thread#18;Info;Successfully generated reports.
+2020-07-15T19:44:33.5731004+05:30;Thread#18;Info;Successfully generated reports
+2020-07-15T19:44:33.5799232+05:30:Total: 1 (test executions: 3)
+2020-07-15T19:44:33.5816822+05:30:Succeeded: 0
+2020-07-15T19:44:33.5816822+05:30:Ignored: 0
+2020-07-15T19:44:33.5826454+05:30:Pending: 0
+2020-07-15T19:44:33.5826454+05:30:Skipped: 0
+2020-07-15T19:44:33.5826454+05:30:Failed: 1
+2020-07-15T19:44:33.5920936+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-07-15T19:44:33.5922637+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Project\Active-Active\TestResults\Unnamed project__2020-07-15T194429.html'
+========== End of log file ==========

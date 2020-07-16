@@ -1,0 +1,132 @@
+﻿2020-07-15T20:06:48.5531552+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-07-15T20:06:48.5531552+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.17 in Framework clr40 in x86 mode execution started
+2020-07-15T20:06:48.5531552+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\Project\Active-Active\packages\SpecRun.Runner.3.3.17\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-07-15T20:06:48.5544428+05:30;VSTestExecutionThread;Info;Current UserName: 'adeo', MachineName: 'GNLNB-PG018YN0'
+2020-07-15T20:06:48.6921749+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T20:06:48.6939961+05:30;VSTestExecutionThread;Info;Output folder configured to "D:\Project\Active-Active\TestResults" (default)
+2020-07-15T20:06:48.6949974+05:30;VSTestExecutionThread;Info;Profile: 
+2020-07-15T20:06:48.8500894+05:30;VSTestExecutionThread;Info;Log file path: D:\Project\Active-Active\TestResults\Unnamed project__2020-07-15T200648.log
+2020-07-15T20:06:48.8691480+05:30;Thread#19;Info;Checking activation
+2020-07-15T20:06:49.1005002+05:30;Thread#19;Info;Activated.
+2020-07-15T20:06:49.1014985+05:30;Thread#19;Info;Activation check completed
+2020-07-15T20:06:49.1024938+05:30;Thread#19;Info;Starting test run
+2020-07-15T20:06:49.1830843+05:30;Thread#19;Info;Discovering target: Default
+2020-07-15T20:06:49.1830843+05:30;Thread#19;Info;Discovering tests from assembly: D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T20:06:49.5461021+05:30;Thread#19;Info;Discovered tests from assembly: D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T20:06:49.5496201+05:30:Test Suite Dump
+2020-07-15T20:06:49.5537559+05:30:#0: Unnamed project/ - 
+2020-07-15T20:06:49.5537559+05:30:#1: Default - 
+2020-07-15T20:06:49.5537559+05:30:#2: Active-Active - 
+2020-07-15T20:06:49.5537559+05:30:#3: SimpleGetRequest - 
+2020-07-15T20:06:49.5637213+05:30:#4: Creating a simple Get Request - TestAssembly:Active-Active/Feature:SimpleGetRequest/Scenario:Creating+a+simple+Get+Request
+2020-07-15T20:06:49.5637213+05:30:End: Test Suite Dump
+2020-07-15T20:06:49.6174669+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T20:06:49.6199572+05:30:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-07-15T20:06:49.6199572+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-07-15T20:06:49.6249472+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-07-15T20:06:49.6249472+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-07-15T20:06:49.6249472+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-07-15T20:06:49.6249472+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-07-15T20:06:49.6260305+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-07-15T20:06:49.6269419+05:30:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-07-15T20:06:49.6299341+05:30:Thread #0: creating new test thread executor for Active-Active, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-07-15T20:06:49.6319285+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-07-15T20:06:49.6349209+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-07-15T20:06:49.6363940+05:30:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-07-15T20:06:50.0835460+05:30:Thread#0:T:-> Loading plugin D:\Project\Active-Active\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-07-15T20:06:50.0975148+05:30:Thread#0:T:-> Using default config
+2020-07-15T20:06:50.8500654+05:30:Thread#0: Test #4/0 is started on thread #0
+2020-07-15T20:06:50.8759792+05:30:Thread#0:B:Given I have Api url
+2020-07-15T20:06:51.1484170+05:30:Thread#0:T:[20:06:51 INF] URL ishttps://reqres.in/api/
+2020-07-15T20:06:51.1788443+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveApiUrl() (0.2s)
+2020-07-15T20:06:51.1792743+05:30:Thread#0:B:And I have URI
+2020-07-15T20:06:51.1928070+05:30:Thread#0:T:[20:06:51 INF] URI is https://reqres.in/api//users
+2020-07-15T20:06:51.1928070+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveURI() (0.0s)
+2020-07-15T20:06:51.1938033+05:30:Thread#0:B:When I hit a Restsharp Get Request
+2020-07-15T20:06:51.7501310+05:30:Thread#0:T:[20:06:51 INF] Executing the Get request
+2020-07-15T20:06:51.7501792+05:30:Thread#0:T:[20:06:51 INF] Response Recived from Get Request is {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-07-15T20:06:51.7511308+05:30:Thread#0:T:done: SimpleGetRequest.WhenIHitARestsharpGetRequest() (0.6s)
+2020-07-15T20:06:51.7521258+05:30:Thread#0:B:Then I Verify the Result
+2020-07-15T20:06:51.8071125+05:30:Thread#0:T:[20:06:51 INF] per_page Recived from Get Request is 6
+2020-07-15T20:06:51.8072450+05:30:Thread#0:T:[20:06:51 INF] total_pages Recived from Get Request is 2
+2020-07-15T20:06:51.8100652+05:30:Thread#0:T:[20:06:51 INF] StatusCode Recived from Get Request is 200
+2020-07-15T20:07:16.4858969+05:30:Thread#0:T:error: Transaction failed. The server response was: 5.2.0 STOREDRV.Submission.Exception:OutboundSpamException; Failed to process message due to a permanent exception with message WASCL UserAction verdict is not None. Actual verdict is RefuseQuota, ShowTierUpgrade. OutboundSpamException: WASCL UserAction verdict is not None. Actual verdict is RefuseQuota, ShowTierUpgrade. [Hostname=SL2PR04MB3308.apcprd04.prod.outlook.com]
+2020-07-15T20:07:16.5381229+05:30:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2020-07-15T20:07:16.5390011+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T20:07:16.5390011+05:30:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-07-15T20:07:16.5390011+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-07-15T20:07:16.5390011+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-07-15T20:07:16.5390011+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-07-15T20:07:16.5390011+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-07-15T20:07:16.5390011+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-07-15T20:07:16.5390011+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-07-15T20:07:16.5390011+05:30:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-07-15T20:07:16.5509686+05:30:Thread#0: Test #4/0 is finished on thread #0 as Failed within 25.6998876 seconds
+2020-07-15T20:07:16.5519305+05:30:Thread#0: Test #4/1 is started on thread #0
+2020-07-15T20:07:16.5529274+05:30:Thread#0:B:Given I have Api url
+2020-07-15T20:07:16.5539244+05:30:Thread#0:T:[20:07:16 INF] URL ishttps://reqres.in/api/
+2020-07-15T20:07:16.5572375+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveApiUrl() (0.0s)
+2020-07-15T20:07:16.5572375+05:30:Thread#0:B:And I have URI
+2020-07-15T20:07:16.5579124+05:30:Thread#0:T:[20:07:16 INF] URI is https://reqres.in/api//users
+2020-07-15T20:07:16.5581615+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveURI() (0.0s)
+2020-07-15T20:07:16.5581615+05:30:Thread#0:B:When I hit a Restsharp Get Request
+2020-07-15T20:07:16.6643683+05:30:Thread#0:T:[20:07:16 INF] Executing the Get request
+2020-07-15T20:07:16.6643683+05:30:Thread#0:T:[20:07:16 INF] Response Recived from Get Request is {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-07-15T20:07:16.6643683+05:30:Thread#0:T:done: SimpleGetRequest.WhenIHitARestsharpGetRequest() (0.1s)
+2020-07-15T20:07:16.6655618+05:30:Thread#0:B:Then I Verify the Result
+2020-07-15T20:07:16.6655618+05:30:Thread#0:T:[20:07:16 INF] per_page Recived from Get Request is 6
+2020-07-15T20:07:16.6664865+05:30:Thread#0:T:[20:07:16 INF] total_pages Recived from Get Request is 2
+2020-07-15T20:07:16.6664865+05:30:Thread#0:T:[20:07:16 INF] StatusCode Recived from Get Request is 200
+2020-07-15T20:07:40.9034965+05:30:Thread#0:T:error: Transaction failed. The server response was: 5.2.0 STOREDRV.Submission.Exception:OutboundSpamException; Failed to process message due to a permanent exception with message WASCL UserAction verdict is not None. Actual verdict is RefuseQuota, ShowTierUpgrade. OutboundSpamException: WASCL UserAction verdict is not None. Actual verdict is RefuseQuota, ShowTierUpgrade. [Hostname=SL2PR04MB3308.apcprd04.prod.outlook.com]
+2020-07-15T20:07:40.9063658+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T20:07:40.9063658+05:30:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-07-15T20:07:40.9063658+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-07-15T20:07:40.9063658+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-07-15T20:07:40.9063658+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-07-15T20:07:40.9063658+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-07-15T20:07:40.9063658+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-07-15T20:07:40.9063658+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-07-15T20:07:40.9063658+05:30:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-07-15T20:07:40.9105256+05:30:Thread#0: Test #4/1 is finished on thread #0 as Failed within 24.3584313 seconds
+2020-07-15T20:07:40.9105256+05:30:Thread#0: Test #4/2 is started on thread #0
+2020-07-15T20:07:40.9113493+05:30:Thread#0:B:Given I have Api url
+2020-07-15T20:07:40.9155499+05:30:Thread#0:T:[20:07:40 INF] URL ishttps://reqres.in/api/
+2020-07-15T20:07:40.9329892+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveApiUrl() (0.0s)
+2020-07-15T20:07:40.9339745+05:30:Thread#0:B:And I have URI
+2020-07-15T20:07:40.9350649+05:30:Thread#0:T:[20:07:40 INF] URI is https://reqres.in/api//users
+2020-07-15T20:07:40.9359223+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveURI() (0.0s)
+2020-07-15T20:07:40.9370083+05:30:Thread#0:B:When I hit a Restsharp Get Request
+2020-07-15T20:07:41.0325169+05:30:Thread#0:T:[20:07:41 INF] Executing the Get request
+2020-07-15T20:07:41.0335007+05:30:Thread#0:T:[20:07:41 INF] Response Recived from Get Request is {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-07-15T20:07:41.0346125+05:30:Thread#0:T:done: SimpleGetRequest.WhenIHitARestsharpGetRequest() (0.1s)
+2020-07-15T20:07:41.0354965+05:30:Thread#0:B:Then I Verify the Result
+2020-07-15T20:07:41.0366130+05:30:Thread#0:T:[20:07:41 INF] per_page Recived from Get Request is 6
+2020-07-15T20:07:41.0374874+05:30:Thread#0:T:[20:07:41 INF] total_pages Recived from Get Request is 2
+2020-07-15T20:07:41.0374874+05:30:Thread#0:T:[20:07:41 INF] StatusCode Recived from Get Request is 200
+2020-07-15T20:08:05.2921628+05:30:Thread#0:T:error: Transaction failed. The server response was: 5.2.0 STOREDRV.Submission.Exception:OutboundSpamException; Failed to process message due to a permanent exception with message WASCL UserAction verdict is not None. Actual verdict is RefuseQuota, ShowTierUpgrade. OutboundSpamException: WASCL UserAction verdict is not None. Actual verdict is RefuseQuota, ShowTierUpgrade. [Hostname=SL2PR04MB3308.apcprd04.prod.outlook.com]
+2020-07-15T20:08:05.3032295+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T20:08:05.3032295+05:30:Thread#:Scheduler: at the end of normal test queue
+2020-07-15T20:08:05.3032295+05:30:Thread#0:Scheduler: enumerator for thread is at end
+2020-07-15T20:08:05.3032295+05:30:Thread#0:Scheduler: No more tests for thread
+2020-07-15T20:08:05.3081592+05:30:Thread#0: Test #4/2 is finished on thread #0 as Failed within 24.3976336 seconds
+2020-07-15T20:08:05.4407181+05:30:Trying to cancel thread
+2020-07-15T20:08:05.4407181+05:30:Thread cancelled
+2020-07-15T20:08:05.4552954+05:30:Thread#-1:Scheduler: get next test for thread -1
+2020-07-15T20:08:05.4552954+05:30:Thread#:Scheduler: at the end of normal test queue
+2020-07-15T20:08:05.4552954+05:30:Thread#-1:Scheduler: enumerator for thread is at end
+2020-07-15T20:08:05.4662664+05:30;Thread#19;Info;test run finished
+2020-07-15T20:08:05.4662664+05:30;Thread#19;Info;publishing test results
+2020-07-15T20:08:05.4807691+05:30;Thread#19;Info;test results published
+2020-07-15T20:08:05.4818747+05:30;Thread#19;Info;generating reports
+2020-07-15T20:08:05.8298626+05:30;Thread#19;Info;Starting external report generation process
+2020-07-15T20:08:08.4436367+05:30;Thread#19;Info;Successfully generated reports.
+2020-07-15T20:08:08.4465725+05:30;Thread#19;Info;Successfully generated reports
+2020-07-15T20:08:08.4619886+05:30:Total: 1 (test executions: 3)
+2020-07-15T20:08:08.4659728+05:30:Succeeded: 0
+2020-07-15T20:08:08.4669737+05:30:Ignored: 0
+2020-07-15T20:08:08.4680234+05:30:Pending: 0
+2020-07-15T20:08:08.4680234+05:30:Skipped: 0
+2020-07-15T20:08:08.4690529+05:30:Failed: 1
+2020-07-15T20:08:08.4969807+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-07-15T20:08:08.4978898+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Project\Active-Active\TestResults\Unnamed project__2020-07-15T200648.html'
+========== End of log file ==========

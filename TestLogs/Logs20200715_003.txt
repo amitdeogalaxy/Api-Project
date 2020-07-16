@@ -1,0 +1,4 @@
+2020-07-15 19:54:20.130 +05:30 [INF] URL ishttps://reqres.in/api/
+2020-07-15 19:54:20.136 +05:30 [INF] URI is https://reqres.in/api//users
+2020-07-15 19:54:20.137 +05:30 [INF] Executing the Get request
+2020-07-15 19:54:20.137 +05:30 [INF] Response Recived from Get Request is 

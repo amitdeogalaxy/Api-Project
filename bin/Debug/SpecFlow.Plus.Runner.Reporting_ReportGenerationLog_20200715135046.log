@@ -1,0 +1,10 @@
+﻿2020-07-15T13:50:46.7370069+05:30;Thread#1;Info;Reading test run result from Json file "C:\Users\adeo\AppData\Local\Temp\tmp3163.tmp".
+2020-07-15T13:50:46.7808516+05:30;Thread#1;Info;Successfully read test run result from Json file "C:\Users\adeo\AppData\Local\Temp\tmp3163.tmp"
+2020-07-15T13:50:46.7808516+05:30;Thread#1;Info;Deserializing test run result
+2020-07-15T13:50:47.3933381+05:30;Thread#1;Info;Successfully deserialized test run result
+2020-07-15T13:50:47.3933381+05:30;Thread#1;Info;Loading test run result
+2020-07-15T13:50:47.4102000+05:30;Thread#1;Info;Successfully loaded test run result
+2020-07-15T13:50:47.4191304+05:30;Thread#1;Info;creating 1 report(s)
+2020-07-15T13:50:47.4191304+05:30;Thread#1;Info;generate Report ReportTemplate.cshtml
+2020-07-15T13:50:48.8407704+05:30;Thread#1;Info;Finished generating reports.
+========== End of log file ==========

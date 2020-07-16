@@ -1,0 +1,132 @@
+﻿2020-07-15T20:28:02.4230504+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-07-15T20:28:02.4230504+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.17 in Framework clr40 in x86 mode execution started
+2020-07-15T20:28:02.4230504+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\Project\Active-Active\packages\SpecRun.Runner.3.3.17\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-07-15T20:28:02.4243260+05:30;VSTestExecutionThread;Info;Current UserName: 'adeo', MachineName: 'GNLNB-PG018YN0'
+2020-07-15T20:28:02.4733633+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T20:28:02.4733633+05:30;VSTestExecutionThread;Info;Output folder configured to "D:\Project\Active-Active\TestResults" (default)
+2020-07-15T20:28:02.4733633+05:30;VSTestExecutionThread;Info;Profile: 
+2020-07-15T20:28:02.5483619+05:30;VSTestExecutionThread;Info;Log file path: D:\Project\Active-Active\TestResults\Unnamed project__2020-07-15T202802.log
+2020-07-15T20:28:02.5693103+05:30;Thread#18;Info;Checking activation
+2020-07-15T20:28:02.7879592+05:30;Thread#18;Info;Activated.
+2020-07-15T20:28:02.7879592+05:30;Thread#18;Info;Activation check completed
+2020-07-15T20:28:02.7890151+05:30;Thread#18;Info;Starting test run
+2020-07-15T20:28:02.8753622+05:30;Thread#18;Info;Discovering target: Default
+2020-07-15T20:28:02.8763990+05:30;Thread#18;Info;Discovering tests from assembly: D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T20:28:03.2445274+05:30;Thread#18;Info;Discovered tests from assembly: D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T20:28:03.2455243+05:30:Test Suite Dump
+2020-07-15T20:28:03.2475201+05:30:#0: Unnamed project/ - 
+2020-07-15T20:28:03.2475201+05:30:#1: Default - 
+2020-07-15T20:28:03.2475201+05:30:#2: Active-Active - 
+2020-07-15T20:28:03.2475201+05:30:#3: SimpleGetRequest - 
+2020-07-15T20:28:03.2509463+05:30:#4: Creating a simple Get Request - TestAssembly:Active-Active/Feature:SimpleGetRequest/Scenario:Creating+a+simple+Get+Request
+2020-07-15T20:28:03.2514515+05:30:End: Test Suite Dump
+2020-07-15T20:28:03.2704432+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T20:28:03.2724160+05:30:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-07-15T20:28:03.2724160+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-07-15T20:28:03.2765276+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-07-15T20:28:03.2765276+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-07-15T20:28:03.2765276+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-07-15T20:28:03.2774012+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-07-15T20:28:03.2784623+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-07-15T20:28:03.2793522+05:30:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-07-15T20:28:03.2823667+05:30:Thread #0: creating new test thread executor for Active-Active, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-07-15T20:28:03.2843401+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-07-15T20:28:03.2864670+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-07-15T20:28:03.2873728+05:30:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-07-15T20:28:03.4172019+05:30:Thread#0:T:-> Loading plugin D:\Project\Active-Active\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-07-15T20:28:03.4271481+05:30:Thread#0:T:-> Using default config
+2020-07-15T20:28:03.8927053+05:30:Thread#0: Test #4/0 is started on thread #0
+2020-07-15T20:28:03.9496315+05:30:Thread#0:B:Given I have Api url
+2020-07-15T20:28:04.1435187+05:30:Thread#0:T:[20:28:04 INF] URL ishttps://reqres.in/api/
+2020-07-15T20:28:04.1744761+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveApiUrl() (0.1s)
+2020-07-15T20:28:04.1754347+05:30:Thread#0:B:And I have URI
+2020-07-15T20:28:04.1933309+05:30:Thread#0:T:[20:28:04 INF] URI is https://reqres.in/api//users
+2020-07-15T20:28:04.1933309+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveURI() (0.0s)
+2020-07-15T20:28:04.1943281+05:30:Thread#0:B:When I hit a Restsharp Get Request
+2020-07-15T20:28:04.8126040+05:30:Thread#0:T:[20:28:04 INF] Executing the Get request
+2020-07-15T20:28:04.8137306+05:30:Thread#0:T:[20:28:04 INF] Response Recived from Get Request is {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-07-15T20:28:04.8137306+05:30:Thread#0:T:done: SimpleGetRequest.WhenIHitARestsharpGetRequest() (0.6s)
+2020-07-15T20:28:04.8146001+05:30:Thread#0:B:Then I Verify the Result
+2020-07-15T20:28:04.9316571+05:30:Thread#0:T:[20:28:04 INF] per_page Recived from Get Request is 6
+2020-07-15T20:28:04.9322368+05:30:Thread#0:T:[20:28:04 INF] total_pages Recived from Get Request is 2
+2020-07-15T20:28:04.9428885+05:30:Thread#0:T:[20:28:04 INF] StatusCode Recived from Get Request is 200
+2020-07-15T20:28:16.0424630+05:30:Thread#0:T:error: The process cannot access the file 'D:\Project\Active-Active\ExtentReports\index.html' because it is being used by another process.
+2020-07-15T20:28:16.1194538+05:30:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2020-07-15T20:28:16.1214530+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T20:28:16.1214530+05:30:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-07-15T20:28:16.1214530+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-07-15T20:28:16.1214530+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-07-15T20:28:16.1214530+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-07-15T20:28:16.1214530+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-07-15T20:28:16.1214530+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-07-15T20:28:16.1214530+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-07-15T20:28:16.1214530+05:30:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-07-15T20:28:16.1533162+05:30:Thread#0: Test #4/0 is finished on thread #0 as Failed within 12.2575652 seconds
+2020-07-15T20:28:16.1594695+05:30:Thread#0: Test #4/1 is started on thread #0
+2020-07-15T20:28:16.1614364+05:30:Thread#0:B:Given I have Api url
+2020-07-15T20:28:16.1654316+05:30:Thread#0:T:[20:28:16 INF] URL ishttps://reqres.in/api/
+2020-07-15T20:28:16.1803948+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveApiUrl() (0.0s)
+2020-07-15T20:28:16.1813921+05:30:Thread#0:B:And I have URI
+2020-07-15T20:28:16.1823884+05:30:Thread#0:T:[20:28:16 INF] URI is https://reqres.in/api//users
+2020-07-15T20:28:16.1834896+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveURI() (0.0s)
+2020-07-15T20:28:16.1843851+05:30:Thread#0:B:When I hit a Restsharp Get Request
+2020-07-15T20:28:16.3366040+05:30:Thread#0:T:[20:28:16 INF] Executing the Get request
+2020-07-15T20:28:16.3375544+05:30:Thread#0:T:[20:28:16 INF] Response Recived from Get Request is {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-07-15T20:28:16.3375544+05:30:Thread#0:T:done: SimpleGetRequest.WhenIHitARestsharpGetRequest() (0.2s)
+2020-07-15T20:28:16.3385522+05:30:Thread#0:B:Then I Verify the Result
+2020-07-15T20:28:16.3385522+05:30:Thread#0:T:[20:28:16 INF] per_page Recived from Get Request is 6
+2020-07-15T20:28:16.3395531+05:30:Thread#0:T:[20:28:16 INF] total_pages Recived from Get Request is 2
+2020-07-15T20:28:16.3395531+05:30:Thread#0:T:[20:28:16 INF] StatusCode Recived from Get Request is 200
+2020-07-15T20:28:21.2215382+05:30:Thread#0:T:error: The process cannot access the file 'D:\Project\Active-Active\ExtentReports\index.html' because it is being used by another process.
+2020-07-15T20:28:21.2245649+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T20:28:21.2245649+05:30:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-07-15T20:28:21.2245649+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-07-15T20:28:21.2245649+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-07-15T20:28:21.2245649+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-07-15T20:28:21.2245649+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-07-15T20:28:21.2245649+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-07-15T20:28:21.2245649+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-07-15T20:28:21.2245649+05:30:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-07-15T20:28:21.2268816+05:30:Thread#0: Test #4/1 is finished on thread #0 as Failed within 5.0674121 seconds
+2020-07-15T20:28:21.2275549+05:30:Thread#0: Test #4/2 is started on thread #0
+2020-07-15T20:28:21.2285552+05:30:Thread#0:B:Given I have Api url
+2020-07-15T20:28:21.2325694+05:30:Thread#0:T:[20:28:21 INF] URL ishttps://reqres.in/api/
+2020-07-15T20:28:21.2511948+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveApiUrl() (0.0s)
+2020-07-15T20:28:21.2521925+05:30:Thread#0:B:And I have URI
+2020-07-15T20:28:21.2531894+05:30:Thread#0:T:[20:28:21 INF] URI is https://reqres.in/api//users
+2020-07-15T20:28:21.2541870+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveURI() (0.0s)
+2020-07-15T20:28:21.2551839+05:30:Thread#0:B:When I hit a Restsharp Get Request
+2020-07-15T20:28:21.3711007+05:30:Thread#0:T:[20:28:21 INF] Executing the Get request
+2020-07-15T20:28:21.3720906+05:30:Thread#0:T:[20:28:21 INF] Response Recived from Get Request is {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-07-15T20:28:21.3730935+05:30:Thread#0:T:done: SimpleGetRequest.WhenIHitARestsharpGetRequest() (0.1s)
+2020-07-15T20:28:21.3740902+05:30:Thread#0:B:Then I Verify the Result
+2020-07-15T20:28:21.3750855+05:30:Thread#0:T:[20:28:21 INF] per_page Recived from Get Request is 6
+2020-07-15T20:28:21.3760874+05:30:Thread#0:T:[20:28:21 INF] total_pages Recived from Get Request is 2
+2020-07-15T20:28:21.3762955+05:30:Thread#0:T:[20:28:21 INF] StatusCode Recived from Get Request is 200
+2020-07-15T20:28:26.1402613+05:30:Thread#0:T:error: The process cannot access the file 'D:\Project\Active-Active\ExtentReports\index.html' because it is being used by another process.
+2020-07-15T20:28:26.1424275+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T20:28:26.1424275+05:30:Thread#:Scheduler: at the end of normal test queue
+2020-07-15T20:28:26.1424275+05:30:Thread#0:Scheduler: enumerator for thread is at end
+2020-07-15T20:28:26.1424275+05:30:Thread#0:Scheduler: No more tests for thread
+2020-07-15T20:28:26.1476051+05:30:Thread#0: Test #4/2 is finished on thread #0 as Failed within 4.9198511 seconds
+2020-07-15T20:28:26.3102130+05:30:Trying to cancel thread
+2020-07-15T20:28:26.3102130+05:30:Thread cancelled
+2020-07-15T20:28:26.3224913+05:30:Thread#-1:Scheduler: get next test for thread -1
+2020-07-15T20:28:26.3224913+05:30:Thread#:Scheduler: at the end of normal test queue
+2020-07-15T20:28:26.3224913+05:30:Thread#-1:Scheduler: enumerator for thread is at end
+2020-07-15T20:28:26.3323897+05:30;Thread#18;Info;test run finished
+2020-07-15T20:28:26.3333818+05:30;Thread#18;Info;publishing test results
+2020-07-15T20:28:26.3473452+05:30;Thread#18;Info;test results published
+2020-07-15T20:28:26.3473452+05:30;Thread#18;Info;generating reports
+2020-07-15T20:28:26.7651932+05:30;Thread#18;Info;Starting external report generation process
+2020-07-15T20:28:30.3327418+05:30;Thread#18;Info;Successfully generated reports.
+2020-07-15T20:28:30.3387235+05:30;Thread#18;Info;Successfully generated reports
+2020-07-15T20:28:30.3668584+05:30:Total: 1 (test executions: 3)
+2020-07-15T20:28:30.3728638+05:30:Succeeded: 0
+2020-07-15T20:28:30.3753934+05:30:Ignored: 0
+2020-07-15T20:28:30.3772121+05:30:Pending: 0
+2020-07-15T20:28:30.3772121+05:30:Skipped: 0
+2020-07-15T20:28:30.3782104+05:30:Failed: 1
+2020-07-15T20:28:30.4162665+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-07-15T20:28:30.4173749+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Project\Active-Active\TestResults\Unnamed project__2020-07-15T202802.html'
+========== End of log file ==========

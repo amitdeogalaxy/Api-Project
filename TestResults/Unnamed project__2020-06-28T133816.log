@@ -1,0 +1,111 @@
+﻿2020-06-28T13:38:16.5611470+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-06-28T13:38:16.5611470+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.14 in Framework clr40 in x86 mode execution started
+2020-06-28T13:38:16.5611470+05:30;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\amitk\source\repos\Active-Active\packages\SpecRun.Runner.3.3.14\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-06-28T13:38:16.5621435+05:30;VSTestExecutionThread;Info;Current UserName: 'amitk', MachineName: 'AMITKUMARDEO'
+2020-06-28T13:38:16.6080211+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\amitk\source\repos\Active-Active\bin\Debug\Active-Active.dll
+2020-06-28T13:38:16.6080211+05:30;VSTestExecutionThread;Info;Output folder configured to "C:\Users\amitk\source\repos\Active-Active\TestResults" (default)
+2020-06-28T13:38:16.6080211+05:30;VSTestExecutionThread;Info;Profile: 
+2020-06-28T13:38:16.6938454+05:30;VSTestExecutionThread;Info;Log file path: C:\Users\amitk\source\repos\Active-Active\TestResults\Unnamed project__2020-06-28T133816.log
+2020-06-28T13:38:16.7038199+05:30;Thread#13;Info;Checking activation
+2020-06-28T13:38:16.7995908+05:30;Thread#13;Info;Activated.
+2020-06-28T13:38:16.7995908+05:30;Thread#13;Info;Activation check completed
+2020-06-28T13:38:16.8005623+05:30;Thread#13;Info;Starting test run
+2020-06-28T13:38:16.8574116+05:30;Thread#13;Info;Discovering target: Default
+2020-06-28T13:38:16.8574116+05:30;Thread#13;Info;Discovering tests from assembly: C:\Users\amitk\source\repos\Active-Active\bin\Debug\Active-Active.dll
+2020-06-28T13:38:17.4030002+05:30;Thread#13;Info;Discovered tests from assembly: C:\Users\amitk\source\repos\Active-Active\bin\Debug\Active-Active.dll
+2020-06-28T13:38:17.4049971+05:30:Test Suite Dump
+2020-06-28T13:38:17.4080223+05:30:#0: Unnamed project/ - 
+2020-06-28T13:38:17.4080223+05:30:#1: Default - 
+2020-06-28T13:38:17.4080223+05:30:#2: Active-Active - 
+2020-06-28T13:38:17.4080223+05:30:#3: GetRequest - 
+2020-06-28T13:38:17.4668307+05:30:#4: Creating a Get Request - TestAssembly:Active-Active/Feature:GetRequest/Scenario:Creating+a+Get+Request
+2020-06-28T13:38:17.4678291+05:30:End: Test Suite Dump
+2020-06-28T13:38:17.5037341+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-06-28T13:38:17.5067257+05:30:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-06-28T13:38:17.5067257+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-06-28T13:38:17.5127097+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-28T13:38:17.5127097+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-06-28T13:38:17.5127097+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-06-28T13:38:17.5127097+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-06-28T13:38:17.5147044+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-06-28T13:38:17.5166974+05:30:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-28T13:38:17.5206852+05:30:Thread #0: creating new test thread executor for Active-Active, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-06-28T13:38:17.5236780+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-28T13:38:17.5286653+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-28T13:38:17.5306601+05:30:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-06-28T13:38:17.8725530+05:30:Thread#0:T:-> Loading plugin C:\Users\amitk\source\repos\Active-Active\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-06-28T13:38:17.8815263+05:30:Thread#0:T:-> Using default config
+2020-06-28T13:38:18.7003375+05:30:Thread#0: Test #4/0 is started on thread #0
+2020-06-28T13:38:18.7531981+05:30:Thread#0:B:Given I have a URI for a Connection
+2020-06-28T13:38:18.9337159+05:30:Thread#0:T:done: GetRequestSteps.GivenIHaveAURIForAConnection() (0.0s)
+2020-06-28T13:38:18.9367063+05:30:Thread#0:B:When Endpoints are mentioned
+2020-06-28T13:38:18.9377041+05:30:Thread#0:T:done: GetRequestSteps.WhenEndpointsAreMentioned() (0.0s)
+2020-06-28T13:38:18.9387012+05:30:Thread#0:B:Then Create a Get Request
+2020-06-28T13:38:19.7966370+05:30:Thread#0:T:error: The given path's format is not supported.
+2020-06-28T13:38:19.7966370+05:30:Thread#0:B:Then Hit API request
+2020-06-28T13:38:19.7976381+05:30:Thread#0:T:skipped because of previous errors
+2020-06-28T13:38:20.0292350+05:30:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2020-06-28T13:38:20.0311990+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-06-28T13:38:20.0311990+05:30:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-06-28T13:38:20.0311990+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-06-28T13:38:20.0311990+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-28T13:38:20.0311990+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-06-28T13:38:20.0311990+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-06-28T13:38:20.0311990+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-06-28T13:38:20.0311990+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-06-28T13:38:20.0311990+05:30:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-06-28T13:38:20.0551349+05:30:Thread#0: Test #4/0 is finished on thread #0 as Failed within 1.3528027 seconds
+2020-06-28T13:38:20.0569258+05:30:Thread#0: Test #4/1 is started on thread #0
+2020-06-28T13:38:20.0578893+05:30:Thread#0:B:Given I have a URI for a Connection
+2020-06-28T13:38:20.0578893+05:30:Thread#0:T:done: GetRequestSteps.GivenIHaveAURIForAConnection() (0.0s)
+2020-06-28T13:38:20.0588867+05:30:Thread#0:B:When Endpoints are mentioned
+2020-06-28T13:38:20.0588867+05:30:Thread#0:T:done: GetRequestSteps.WhenEndpointsAreMentioned() (0.0s)
+2020-06-28T13:38:20.0588867+05:30:Thread#0:B:Then Create a Get Request
+2020-06-28T13:38:20.0598839+05:30:Thread#0:T:error: The given path's format is not supported.
+2020-06-28T13:38:20.0598839+05:30:Thread#0:B:Then Hit API request
+2020-06-28T13:38:20.0608820+05:30:Thread#0:T:skipped because of previous errors
+2020-06-28T13:38:20.0618784+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-06-28T13:38:20.0618784+05:30:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-06-28T13:38:20.0618784+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-06-28T13:38:20.0618784+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-28T13:38:20.0618784+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-06-28T13:38:20.0618784+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-06-28T13:38:20.0618784+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-06-28T13:38:20.0618784+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-06-28T13:38:20.0618784+05:30:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-06-28T13:38:20.0628758+05:30:Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.00595 seconds
+2020-06-28T13:38:20.0628758+05:30:Thread#0: Test #4/2 is started on thread #0
+2020-06-28T13:38:20.0638769+05:30:Thread#0:B:Given I have a URI for a Connection
+2020-06-28T13:38:20.0638769+05:30:Thread#0:T:done: GetRequestSteps.GivenIHaveAURIForAConnection() (0.0s)
+2020-06-28T13:38:20.0648708+05:30:Thread#0:B:When Endpoints are mentioned
+2020-06-28T13:38:20.0648708+05:30:Thread#0:T:done: GetRequestSteps.WhenEndpointsAreMentioned() (0.0s)
+2020-06-28T13:38:20.0648708+05:30:Thread#0:B:Then Create a Get Request
+2020-06-28T13:38:20.0668719+05:30:Thread#0:T:error: The given path's format is not supported.
+2020-06-28T13:38:20.0668719+05:30:Thread#0:B:Then Hit API request
+2020-06-28T13:38:20.0698577+05:30:Thread#0:T:skipped because of previous errors
+2020-06-28T13:38:20.0718516+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-06-28T13:38:20.0718516+05:30:Thread#:Scheduler: at the end of normal test queue
+2020-06-28T13:38:20.0718516+05:30:Thread#0:Scheduler: enumerator for thread is at end
+2020-06-28T13:38:20.0718516+05:30:Thread#0:Scheduler: No more tests for thread
+2020-06-28T13:38:20.0748454+05:30:Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0119696 seconds
+2020-06-28T13:38:20.1346851+05:30:Trying to cancel thread
+2020-06-28T13:38:20.1346851+05:30:Thread cancelled
+2020-06-28T13:38:20.1446565+05:30:Thread#-1:Scheduler: get next test for thread -1
+2020-06-28T13:38:20.1446565+05:30:Thread#:Scheduler: at the end of normal test queue
+2020-06-28T13:38:20.1446565+05:30:Thread#-1:Scheduler: enumerator for thread is at end
+2020-06-28T13:38:20.1636091+05:30;Thread#13;Info;test run finished
+2020-06-28T13:38:20.1636091+05:30;Thread#13;Info;publishing test results
+2020-06-28T13:38:20.1745783+05:30;Thread#13;Info;test results published
+2020-06-28T13:38:20.1755752+05:30;Thread#13;Info;generating reports
+2020-06-28T13:38:20.4515573+05:30;Thread#13;Info;Starting external report generation process
+2020-06-28T13:38:23.4429579+05:30;Thread#13;Info;Successfully generated reports.
+2020-06-28T13:38:23.4459520+05:30;Thread#13;Info;Successfully generated reports
+2020-06-28T13:38:23.4569243+05:30:Total: 1 (test executions: 3)
+2020-06-28T13:38:23.4599175+05:30:Succeeded: 0
+2020-06-28T13:38:23.4609146+05:30:Ignored: 0
+2020-06-28T13:38:23.4609146+05:30:Pending: 0
+2020-06-28T13:38:23.4609146+05:30:Skipped: 0
+2020-06-28T13:38:23.4629062+05:30:Failed: 1
+2020-06-28T13:38:23.4798603+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-06-28T13:38:23.4808574+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\amitk\source\repos\Active-Active\TestResults\Unnamed project__2020-06-28T133816.html'
+========== End of log file ==========

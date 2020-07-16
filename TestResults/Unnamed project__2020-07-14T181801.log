@@ -1,0 +1,114 @@
+﻿2020-07-14T18:18:01.3436574+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-07-14T18:18:01.3436574+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.17 in Framework clr40 in x86 mode execution started
+2020-07-14T18:18:01.3436574+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\Project\Active-Active\packages\SpecRun.Runner.3.3.17\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-07-14T18:18:01.3436574+05:30;VSTestExecutionThread;Info;Current UserName: 'adeo', MachineName: 'GNLNB-PG018YN0'
+2020-07-14T18:18:01.3788974+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-14T18:18:01.3788974+05:30;VSTestExecutionThread;Info;Output folder configured to "D:\Project\Active-Active\TestResults" (default)
+2020-07-14T18:18:01.3788974+05:30;VSTestExecutionThread;Info;Profile: 
+2020-07-14T18:18:01.4349392+05:30;VSTestExecutionThread;Info;Log file path: D:\Project\Active-Active\TestResults\Unnamed project__2020-07-14T181801.log
+2020-07-14T18:18:01.4460301+05:30;Thread#18;Info;Checking activation
+2020-07-14T18:18:01.5418202+05:30;Thread#18;Info;Activated.
+2020-07-14T18:18:01.5418202+05:30;Thread#18;Info;Activation check completed
+2020-07-14T18:18:01.5418202+05:30;Thread#18;Info;Starting test run
+2020-07-14T18:18:01.5823246+05:30;Thread#18;Info;Discovering target: Default
+2020-07-14T18:18:01.5823246+05:30;Thread#18;Info;Discovering tests from assembly: D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-14T18:18:01.9165547+05:30;Thread#18;Info;Discovered tests from assembly: D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-14T18:18:01.9175536+05:30:Test Suite Dump
+2020-07-14T18:18:01.9193196+05:30:#0: Unnamed project/ - 
+2020-07-14T18:18:01.9193196+05:30:#1: Default - 
+2020-07-14T18:18:01.9193196+05:30:#2: Active-Active - 
+2020-07-14T18:18:01.9193196+05:30:#3: SimpleGetRequest - 
+2020-07-14T18:18:01.9227269+05:30:#4: Creating a simple Get Request - TestAssembly:Active-Active/Feature:SimpleGetRequest/Scenario:Creating+a+simple+Get+Request
+2020-07-14T18:18:01.9227269+05:30:End: Test Suite Dump
+2020-07-14T18:18:01.9444800+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-14T18:18:01.9461081+05:30:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-07-14T18:18:01.9470511+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-07-14T18:18:01.9540852+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-07-14T18:18:01.9550814+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-07-14T18:18:01.9550814+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-07-14T18:18:01.9550814+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-07-14T18:18:01.9579552+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-07-14T18:18:01.9600017+05:30:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-07-14T18:18:01.9666134+05:30:Thread #0: creating new test thread executor for Active-Active, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-07-14T18:18:01.9735986+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-07-14T18:18:01.9807245+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-07-14T18:18:01.9872604+05:30:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-07-14T18:18:02.2077363+05:30:Thread#0:T:-> Loading plugin D:\Project\Active-Active\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-07-14T18:18:02.2147179+05:30:Thread#0:T:-> Using default config
+2020-07-14T18:18:02.7096871+05:30:Thread#0: Test #4/0 is started on thread #0
+2020-07-14T18:18:02.7808181+05:30:Thread#0:B:Given I have Api url
+2020-07-14T18:18:02.9019012+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveApiUrl() (0.0s)
+2020-07-14T18:18:02.9028996+05:30:Thread#0:B:And I have URI
+2020-07-14T18:18:02.9200549+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveURI() (0.0s)
+2020-07-14T18:18:02.9200549+05:30:Thread#0:B:When I hit a Restsharp Get Request
+2020-07-14T18:18:08.7886734+05:30:Thread#0:T:{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-07-14T18:18:08.7886734+05:30:Thread#0:T:done: SimpleGetRequest.WhenIHitARestsharpGetRequest() (5.9s)
+2020-07-14T18:18:08.7897261+05:30:Thread#0:B:Then I Verify the Result
+2020-07-14T18:18:08.8336068+05:30:Thread#0:T:error: Object reference not set to an instance of an object.
+2020-07-14T18:18:09.0638190+05:30:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2020-07-14T18:18:09.0688912+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-14T18:18:09.0688912+05:30:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-07-14T18:18:09.0688912+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-07-14T18:18:09.0688912+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-07-14T18:18:09.0688912+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-07-14T18:18:09.0688912+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-07-14T18:18:09.0688912+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-07-14T18:18:09.0698494+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-07-14T18:18:09.0698494+05:30:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-07-14T18:18:09.1206750+05:30:Thread#0: Test #4/0 is finished on thread #0 as Failed within 6.4093386 seconds
+2020-07-14T18:18:09.1256468+05:30:Thread#0: Test #4/1 is started on thread #0
+2020-07-14T18:18:09.1275961+05:30:Thread#0:B:Given I have Api url
+2020-07-14T18:18:09.1288801+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveApiUrl() (0.0s)
+2020-07-14T18:18:09.1295877+05:30:Thread#0:B:And I have URI
+2020-07-14T18:18:09.1307969+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveURI() (0.0s)
+2020-07-14T18:18:09.1315846+05:30:Thread#0:B:When I hit a Restsharp Get Request
+2020-07-14T18:18:09.3236902+05:30:Thread#0:T:{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-07-14T18:18:09.3236902+05:30:Thread#0:T:done: SimpleGetRequest.WhenIHitARestsharpGetRequest() (0.2s)
+2020-07-14T18:18:09.3236902+05:30:Thread#0:B:Then I Verify the Result
+2020-07-14T18:18:09.3266709+05:30:Thread#0:T:error: Object reference not set to an instance of an object.
+2020-07-14T18:18:09.3287251+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-14T18:18:09.3287251+05:30:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-07-14T18:18:09.3287251+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-07-14T18:18:09.3287251+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-07-14T18:18:09.3287251+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-07-14T18:18:09.3287251+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-07-14T18:18:09.3287251+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-07-14T18:18:09.3287251+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-07-14T18:18:09.3287251+05:30:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-07-14T18:18:09.3401345+05:30:Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.2144877 seconds
+2020-07-14T18:18:09.3407120+05:30:Thread#0: Test #4/2 is started on thread #0
+2020-07-14T18:18:09.3407120+05:30:Thread#0:B:Given I have Api url
+2020-07-14T18:18:09.3418052+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveApiUrl() (0.0s)
+2020-07-14T18:18:09.3418052+05:30:Thread#0:B:And I have URI
+2020-07-14T18:18:09.3427072+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveURI() (0.0s)
+2020-07-14T18:18:09.3432909+05:30:Thread#0:B:When I hit a Restsharp Get Request
+2020-07-14T18:18:09.6050721+05:30:Thread#0:T:{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-07-14T18:18:09.6050721+05:30:Thread#0:T:done: SimpleGetRequest.WhenIHitARestsharpGetRequest() (0.3s)
+2020-07-14T18:18:09.6061761+05:30:Thread#0:B:Then I Verify the Result
+2020-07-14T18:18:09.6117618+05:30:Thread#0:T:error: Object reference not set to an instance of an object.
+2020-07-14T18:18:09.6158253+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-14T18:18:09.6158253+05:30:Thread#:Scheduler: at the end of normal test queue
+2020-07-14T18:18:09.6158253+05:30:Thread#0:Scheduler: enumerator for thread is at end
+2020-07-14T18:18:09.6158253+05:30:Thread#0:Scheduler: No more tests for thread
+2020-07-14T18:18:09.6208272+05:30:Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.2801152 seconds
+2020-07-14T18:18:09.7107307+05:30:Trying to cancel thread
+2020-07-14T18:18:09.7107307+05:30:Thread cancelled
+2020-07-14T18:18:09.7177861+05:30:Thread#-1:Scheduler: get next test for thread -1
+2020-07-14T18:18:09.7177861+05:30:Thread#:Scheduler: at the end of normal test queue
+2020-07-14T18:18:09.7177861+05:30:Thread#-1:Scheduler: enumerator for thread is at end
+2020-07-14T18:18:09.7236947+05:30;Thread#18;Info;test run finished
+2020-07-14T18:18:09.7236947+05:30;Thread#18;Info;publishing test results
+2020-07-14T18:18:09.7296812+05:30;Thread#18;Info;test results published
+2020-07-14T18:18:09.7302554+05:30;Thread#18;Info;generating reports
+2020-07-14T18:18:09.8455218+05:30;Thread#18;Info;Starting external report generation process
+2020-07-14T18:18:12.0837035+05:30;Thread#18;Info;Successfully generated reports.
+2020-07-14T18:18:12.0857005+05:30;Thread#18;Info;Successfully generated reports
+2020-07-14T18:18:12.0956977+05:30:Total: 1 (test executions: 3)
+2020-07-14T18:18:12.0986944+05:30:Succeeded: 0
+2020-07-14T18:18:12.0996908+05:30:Ignored: 0
+2020-07-14T18:18:12.0996908+05:30:Pending: 0
+2020-07-14T18:18:12.0996908+05:30:Skipped: 0
+2020-07-14T18:18:12.1007132+05:30:Failed: 1
+2020-07-14T18:18:12.1139646+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-07-14T18:18:12.1139646+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Project\Active-Active\TestResults\Unnamed project__2020-07-14T181801.html'
+========== End of log file ==========

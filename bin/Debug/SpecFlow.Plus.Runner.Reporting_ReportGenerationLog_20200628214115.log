@@ -1,0 +1,10 @@
+﻿2020-06-28T21:41:15.5224618+05:30;Thread#1;Info;Reading test run result from Json file "C:\Users\amitk\AppData\Local\Temp\tmp5E3F.tmp".
+2020-06-28T21:41:15.5350319+05:30;Thread#1;Info;Successfully read test run result from Json file "C:\Users\amitk\AppData\Local\Temp\tmp5E3F.tmp"
+2020-06-28T21:41:15.5350319+05:30;Thread#1;Info;Deserializing test run result
+2020-06-28T21:41:16.3973252+05:30;Thread#1;Info;Successfully deserialized test run result
+2020-06-28T21:41:16.3973252+05:30;Thread#1;Info;Loading test run result
+2020-06-28T21:41:16.4460153+05:30;Thread#1;Info;Successfully loaded test run result
+2020-06-28T21:41:16.4799030+05:30;Thread#1;Info;creating 1 report(s)
+2020-06-28T21:41:16.4799030+05:30;Thread#1;Info;generate Report ReportTemplate.cshtml
+2020-06-28T21:41:20.0759789+05:30;Thread#1;Info;Finished generating reports.
+========== End of log file ==========

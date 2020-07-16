@@ -1,0 +1,76 @@
+﻿2020-06-29T10:59:13.6492035+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-06-29T10:59:13.6502009+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.14 in Framework clr40 in x86 mode execution started
+2020-06-29T10:59:13.6502009+05:30;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\amitk\source\repos\Active-Active\packages\SpecRun.Runner.3.3.14\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-06-29T10:59:13.6506874+05:30;VSTestExecutionThread;Info;Current UserName: 'amitk', MachineName: 'AMITKUMARDEO'
+2020-06-29T10:59:13.7819975+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\amitk\source\repos\Active-Active\bin\Debug\Active-Active.dll
+2020-06-29T10:59:13.7829599+05:30;VSTestExecutionThread;Info;Output folder configured to "C:\Users\amitk\source\repos\Active-Active\TestResults" (default)
+2020-06-29T10:59:13.7829599+05:30;VSTestExecutionThread;Info;Profile: 
+2020-06-29T10:59:13.8876819+05:30;VSTestExecutionThread;Info;Log file path: C:\Users\amitk\source\repos\Active-Active\TestResults\Unnamed project__2020-06-29T105913.log
+2020-06-29T10:59:13.9026411+05:30;Thread#13;Info;Checking activation
+2020-06-29T10:59:14.0672026+05:30;Thread#13;Info;Activated.
+2020-06-29T10:59:14.0681991+05:30;Thread#13;Info;Activation check completed
+2020-06-29T10:59:14.0685181+05:30;Thread#13;Info;Starting test run
+2020-06-29T10:59:14.3832953+05:30;Thread#13;Info;Discovering target: Default
+2020-06-29T10:59:14.3839616+05:30;Thread#13;Info;Discovering tests from assembly: C:\Users\amitk\source\repos\Active-Active\bin\Debug\Active-Active.dll
+2020-06-29T10:59:15.9802520+05:30;Thread#13;Info;Discovered tests from assembly: C:\Users\amitk\source\repos\Active-Active\bin\Debug\Active-Active.dll
+2020-06-29T10:59:15.9822480+05:30:Test Suite Dump
+2020-06-29T10:59:15.9852486+05:30:#0: Unnamed project/ - 
+2020-06-29T10:59:15.9852486+05:30:#1: Default - 
+2020-06-29T10:59:15.9852486+05:30:#2: Active-Active - 
+2020-06-29T10:59:15.9852486+05:30:#3: GetRequest - 
+2020-06-29T10:59:16.0929521+05:30:#4: Creating a Get Request - TestAssembly:Active-Active/Feature:GetRequest/Scenario:Creating+a+Get+Request
+2020-06-29T10:59:16.0929521+05:30:End: Test Suite Dump
+2020-06-29T10:59:16.1859615+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T10:59:16.1901969+05:30:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-06-29T10:59:16.1901969+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-06-29T10:59:16.1996685+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T10:59:16.1996685+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-06-29T10:59:16.1996685+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-06-29T10:59:16.1996685+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-06-29T10:59:16.2023334+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-06-29T10:59:16.2036568+05:30:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T10:59:16.2096398+05:30:Thread #0: creating new test thread executor for Active-Active, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-06-29T10:59:16.2146259+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-29T10:59:16.3230299+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-06-29T10:59:16.3249544+05:30:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-06-29T10:59:19.0773673+05:30:Thread#0:T:-> Loading plugin C:\Users\amitk\source\repos\Active-Active\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-06-29T10:59:19.5175637+05:30:Thread#0:T:-> Using default config
+2020-06-29T10:59:24.1108139+05:30:Thread#0: Test #4/0 is started on thread #0
+2020-06-29T10:59:24.3598048+05:30:Thread#0:B:Given I have a URI for a Connection
+2020-06-29T10:59:24.5242520+05:30:Thread#0:T:done: GetRequestSteps.GivenIHaveAURIForAConnection() (0.0s)
+2020-06-29T10:59:24.5311763+05:30:Thread#0:B:When Endpoints are mentioned
+2020-06-29T10:59:24.5331710+05:30:Thread#0:T:done: GetRequestSteps.WhenEndpointsAreMentioned() (0.0s)
+2020-06-29T10:59:24.5341682+05:30:Thread#0:B:Then Create a Get Request
+2020-06-29T10:59:25.6814357+05:30:Thread#0:T:{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-06-29T10:59:25.8804015+05:30:Thread#0:T:per_page received from Response 6
+2020-06-29T10:59:25.8812301+05:30:Thread#0:T:total_pages received from Response 2
+2020-06-29T10:59:25.9079542+05:30:Thread#0:T:200
+2020-06-29T10:59:25.9096845+05:30:Thread#0:T:done: GetRequestSteps.ThenCreateAGetRequest() (1.4s)
+2020-06-29T10:59:25.9106790+05:30:Thread#0:B:Then Hit API request
+2020-06-29T10:59:25.9146691+05:30:Thread#0:T:done: GetRequestSteps.ThenHitAPIRequest() (0.0s)
+2020-06-29T10:59:25.9625457+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T10:59:25.9625457+05:30:Thread#:Scheduler: at the end of normal test queue
+2020-06-29T10:59:25.9625457+05:30:Thread#0:Scheduler: enumerator for thread is at end
+2020-06-29T10:59:25.9625457+05:30:Thread#0:Scheduler: No more tests for thread
+2020-06-29T10:59:26.0003114+05:30:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 1.8873016 seconds
+2020-06-29T10:59:45.8042969+05:30:Trying to cancel thread
+2020-06-29T10:59:45.8042969+05:30:Thread cancelled
+2020-06-29T10:59:45.8893607+05:30:Thread#-1:Scheduler: get next test for thread -1
+2020-06-29T10:59:45.8897947+05:30:Thread#:Scheduler: at the end of normal test queue
+2020-06-29T10:59:45.8897947+05:30:Thread#-1:Scheduler: enumerator for thread is at end
+2020-06-29T10:59:45.8993330+05:30;Thread#13;Info;test run finished
+2020-06-29T10:59:45.9003301+05:30;Thread#13;Info;publishing test results
+2020-06-29T10:59:46.7225889+05:30;Thread#13;Info;test results published
+2020-06-29T10:59:46.7232752+05:30;Thread#13;Info;generating reports
+2020-06-29T10:59:47.8630611+05:30;Thread#13;Info;Starting external report generation process
+2020-06-29T10:59:58.8993977+05:30;Thread#13;Info;Successfully generated reports.
+2020-06-29T10:59:58.9022807+05:30;Thread#13;Info;Successfully generated reports
+2020-06-29T10:59:58.9162828+05:30:Total: 1
+2020-06-29T10:59:58.9212665+05:30:Succeeded: 1
+2020-06-29T10:59:58.9222865+05:30:Ignored: 0
+2020-06-29T10:59:58.9232595+05:30:Pending: 0
+2020-06-29T10:59:58.9232595+05:30:Skipped: 0
+2020-06-29T10:59:58.9242563+05:30:Failed: 0
+2020-06-29T10:59:58.9501536+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-06-29T10:59:58.9511513+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\amitk\source\repos\Active-Active\TestResults\Unnamed project__2020-06-29T105913.html'
+========== End of log file ==========

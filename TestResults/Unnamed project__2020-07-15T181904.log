@@ -1,0 +1,140 @@
+﻿2020-07-15T18:19:04.8779978+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-07-15T18:19:04.8779978+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.17 in Framework clr40 in x86 mode execution started
+2020-07-15T18:19:04.8779978+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\Project\Active-Active\packages\SpecRun.Runner.3.3.17\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-07-15T18:19:04.8779978+05:30;VSTestExecutionThread;Info;Current UserName: 'adeo', MachineName: 'GNLNB-PG018YN0'
+2020-07-15T18:19:04.9089557+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T18:19:04.9089557+05:30;VSTestExecutionThread;Info;Output folder configured to "D:\Project\Active-Active\TestResults" (default)
+2020-07-15T18:19:04.9099133+05:30;VSTestExecutionThread;Info;Profile: 
+2020-07-15T18:19:04.9754989+05:30;VSTestExecutionThread;Info;Log file path: D:\Project\Active-Active\TestResults\Unnamed project__2020-07-15T181904.log
+2020-07-15T18:19:04.9883215+05:30;Thread#18;Info;Checking activation
+2020-07-15T18:19:05.1011318+05:30;Thread#18;Info;Activated.
+2020-07-15T18:19:05.1021295+05:30;Thread#18;Info;Activation check completed
+2020-07-15T18:19:05.1021295+05:30;Thread#18;Info;Starting test run
+2020-07-15T18:19:05.1764586+05:30;Thread#18;Info;Discovering target: Default
+2020-07-15T18:19:05.1764586+05:30;Thread#18;Info;Discovering tests from assembly: D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T18:19:05.7532389+05:30;Thread#18;Info;Discovered tests from assembly: D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T18:19:05.7542359+05:30:Test Suite Dump
+2020-07-15T18:19:05.7562305+05:30:#0: Unnamed project/ - 
+2020-07-15T18:19:05.7562305+05:30:#1: Default - 
+2020-07-15T18:19:05.7562305+05:30:#2: Active-Active - 
+2020-07-15T18:19:05.7562305+05:30:#3: SimpleGetRequest - 
+2020-07-15T18:19:05.7604738+05:30:#4: Creating a simple Get Request - TestAssembly:Active-Active/Feature:SimpleGetRequest/Scenario:Creating+a+simple+Get+Request
+2020-07-15T18:19:05.7604738+05:30:End: Test Suite Dump
+2020-07-15T18:19:05.7852028+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T18:19:05.7871974+05:30:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-07-15T18:19:05.7871974+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-07-15T18:19:05.7911932+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-07-15T18:19:05.7911932+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-07-15T18:19:05.7911932+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-07-15T18:19:05.7911932+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-07-15T18:19:05.7921530+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-07-15T18:19:05.7931501+05:30:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-07-15T18:19:05.7981377+05:30:Thread #0: creating new test thread executor for Active-Active, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-07-15T18:19:05.8001330+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-07-15T18:19:05.8221107+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-07-15T18:19:05.8230696+05:30:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-07-15T18:19:06.1352507+05:30:Thread#0:T:-> Loading plugin D:\Project\Active-Active\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-07-15T18:19:06.1481667+05:30:Thread#0:T:-> Using default config
+2020-07-15T18:19:06.7540859+05:30:Thread#0: Test #4/0 is started on thread #0
+2020-07-15T18:19:06.8213710+05:30:Thread#0:B:Given I have Api url
+2020-07-15T18:19:07.0981018+05:30:Thread#0:T:[
+2020-07-15T18:19:07.1000965+05:30:Thread#0:T:18:19:07
+2020-07-15T18:19:07.1000965+05:30:Thread#0:T: 
+2020-07-15T18:19:07.1100713+05:30:Thread#0:T:INF
+2020-07-15T18:19:07.1100713+05:30:Thread#0:T:] 
+2020-07-15T18:19:07.1120659+05:30:Thread#0:T:URL ishttps://reqres.in/api/
+2020-07-15T18:19:07.1519576+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveApiUrl() (0.2s)
+2020-07-15T18:19:07.1529549+05:30:Thread#0:B:And I have URI
+2020-07-15T18:19:07.1689489+05:30:Thread#0:T:[
+2020-07-15T18:19:07.1697051+05:30:Thread#0:T:18:19:07
+2020-07-15T18:19:07.1698672+05:30:Thread#0:T: 
+2020-07-15T18:19:07.1698672+05:30:Thread#0:T:INF
+2020-07-15T18:19:07.1708680+05:30:Thread#0:T:] 
+2020-07-15T18:19:07.1708680+05:30:Thread#0:T:URI is https://reqres.in/api//users
+2020-07-15T18:19:07.1718644+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveURI() (0.0s)
+2020-07-15T18:19:07.1728630+05:30:Thread#0:B:When I hit a Restsharp Get Request
+2020-07-15T18:19:07.6554642+05:30:Thread#0:T:[
+2020-07-15T18:19:07.6564234+05:30:Thread#0:T:18:19:07
+2020-07-15T18:19:07.6564234+05:30:Thread#0:T: 
+2020-07-15T18:19:07.6574685+05:30:Thread#0:T:INF
+2020-07-15T18:19:07.6574685+05:30:Thread#0:T:] 
+2020-07-15T18:19:07.6584190+05:30:Thread#0:T:Executing the Get request
+2020-07-15T18:19:07.6584190+05:30:Thread#0:T:[
+2020-07-15T18:19:07.6594153+05:30:Thread#0:T:18:19:07
+2020-07-15T18:19:07.6594153+05:30:Thread#0:T: 
+2020-07-15T18:19:07.6604125+05:30:Thread#0:T:INF
+2020-07-15T18:19:07.6604125+05:30:Thread#0:T:] 
+2020-07-15T18:19:07.6604125+05:30:Thread#0:T:Response Recived from Get Request is 
+2020-07-15T18:19:07.6604125+05:30:Thread#0:T:{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"}
+2020-07-15T18:19:07.6614393+05:30:Thread#0:T:,
+2020-07-15T18:19:07.6614393+05:30:Thread#0:T:{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"}
+2020-07-15T18:19:07.6614393+05:30:Thread#0:T:,
+2020-07-15T18:19:07.6614393+05:30:Thread#0:T:{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}
+2020-07-15T18:19:07.6614393+05:30:Thread#0:T:,
+2020-07-15T18:19:07.6614393+05:30:Thread#0:T:{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"}
+2020-07-15T18:19:07.6624365+05:30:Thread#0:T:,
+2020-07-15T18:19:07.6624365+05:30:Thread#0:T:{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"}
+2020-07-15T18:19:07.6624365+05:30:Thread#0:T:,
+2020-07-15T18:19:07.6624365+05:30:Thread#0:T:{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}
+2020-07-15T18:19:07.6624365+05:30:Thread#0:T:],"ad":
+2020-07-15T18:19:07.6624365+05:30:Thread#0:T:{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}
+2020-07-15T18:19:07.6634354+05:30:Thread#0:T:}
+2020-07-15T18:19:07.6634354+05:30:Thread#0:T:done: SimpleGetRequest.WhenIHitARestsharpGetRequest() (0.5s)
+2020-07-15T18:19:07.6634354+05:30:Thread#0:B:Then I Verify the Result
+2020-07-15T18:19:07.7355772+05:30:Thread#0:T:[
+2020-07-15T18:19:07.7355772+05:30:Thread#0:T:18:19:07
+2020-07-15T18:19:07.7365726+05:30:Thread#0:T: 
+2020-07-15T18:19:07.7365726+05:30:Thread#0:T:INF
+2020-07-15T18:19:07.7375717+05:30:Thread#0:T:] 
+2020-07-15T18:19:07.7375717+05:30:Thread#0:T:per_page Recived from Get Request is 6
+2020-07-15T18:19:07.7375717+05:30:Thread#0:T:[
+2020-07-15T18:19:07.7385671+05:30:Thread#0:T:18:19:07
+2020-07-15T18:19:07.7385671+05:30:Thread#0:T: 
+2020-07-15T18:19:07.7395649+05:30:Thread#0:T:INF
+2020-07-15T18:19:07.7395649+05:30:Thread#0:T:] 
+2020-07-15T18:19:07.7405627+05:30:Thread#0:T:total_pages Recived from Get Request is 2
+2020-07-15T18:19:20.6889624+05:30:Thread#0:T:[
+2020-07-15T18:19:20.6895751+05:30:Thread#0:T:18:19:20
+2020-07-15T18:19:20.6900648+05:30:Thread#0:T: 
+2020-07-15T18:19:20.6904376+05:30:Thread#0:T:INF
+2020-07-15T18:19:20.6904376+05:30:Thread#0:T:] 
+2020-07-15T18:19:20.6914384+05:30:Thread#0:T:StatusCode Recived from Get Request is 200
+2020-07-15T18:20:24.4232467+05:30:Thread#0:T:[
+2020-07-15T18:20:24.4232467+05:30:Thread#0:T:18:20:24
+2020-07-15T18:20:24.4242114+05:30:Thread#0:T: 
+2020-07-15T18:20:24.4242114+05:30:Thread#0:T:INF
+2020-07-15T18:20:24.4242114+05:30:Thread#0:T:] 
+2020-07-15T18:20:24.4252097+05:30:Thread#0:T:Sceanrios failed as Status recieved isSystem.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 SMTP; Client was not authenticated to send anonymous mail during MAIL FROM [PN1PR01CA0071.INDPRD01.PROD.OUTLOOK.COM]
+2020-07-15T18:20:24.4252097+05:30:Thread#0:T:   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+2020-07-15T18:20:24.4252097+05:30:Thread#0:T:   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+2020-07-15T18:20:24.4252097+05:30:Thread#0:T:   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+2020-07-15T18:20:24.4252097+05:30:Thread#0:T:   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+2020-07-15T18:20:24.4262054+05:30:Thread#0:T:   at Active_Active.Hooks.email() in D:\Project\Active-Active\Hooks.cs:line 135
+2020-07-15T18:20:24.4262054+05:30:Thread#0:T:   at Active_Active.StepDefinitions.SimpleGetRequest.ThenIVerifyTheResult() in D:\Project\Active-Active\StepDefinitions\SimpleGetRequest.cs:line 136
+2020-07-15T18:20:28.1673691+05:30:Thread#0:T:done: SimpleGetRequest.ThenIVerifyTheResult() (80.5s)
+2020-07-15T18:20:28.1813334+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T18:20:28.1813334+05:30:Thread#:Scheduler: at the end of normal test queue
+2020-07-15T18:20:28.1813334+05:30:Thread#0:Scheduler: enumerator for thread is at end
+2020-07-15T18:20:28.1813334+05:30:Thread#0:Scheduler: No more tests for thread
+2020-07-15T18:20:28.1962920+05:30:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 81.4412081 seconds
+2020-07-15T18:20:28.5527062+05:30:Trying to cancel thread
+2020-07-15T18:20:28.5527062+05:30:Thread cancelled
+2020-07-15T18:20:28.5607180+05:30:Thread#-1:Scheduler: get next test for thread -1
+2020-07-15T18:20:28.5607180+05:30:Thread#:Scheduler: at the end of normal test queue
+2020-07-15T18:20:28.5607180+05:30:Thread#-1:Scheduler: enumerator for thread is at end
+2020-07-15T18:20:28.5636031+05:30;Thread#18;Info;test run finished
+2020-07-15T18:20:28.5636031+05:30;Thread#18;Info;publishing test results
+2020-07-15T18:20:28.5928158+05:30;Thread#18;Info;test results published
+2020-07-15T18:20:28.5938130+05:30;Thread#18;Info;generating reports
+2020-07-15T18:20:28.6985328+05:30;Thread#18;Info;Starting external report generation process
+2020-07-15T18:20:30.2567863+05:30;Thread#18;Info;Successfully generated reports.
+2020-07-15T18:20:30.2597784+05:30;Thread#18;Info;Successfully generated reports
+2020-07-15T18:20:30.2697914+05:30:Total: 1
+2020-07-15T18:20:30.2717970+05:30:Succeeded: 1
+2020-07-15T18:20:30.2727954+05:30:Ignored: 0
+2020-07-15T18:20:30.2727954+05:30:Pending: 0
+2020-07-15T18:20:30.2727954+05:30:Skipped: 0
+2020-07-15T18:20:30.2737912+05:30:Failed: 0
+2020-07-15T18:20:30.2837155+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-07-15T18:20:30.2837155+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Project\Active-Active\TestResults\Unnamed project__2020-07-15T181904.html'
+========== End of log file ==========

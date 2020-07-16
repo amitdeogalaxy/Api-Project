@@ -1,0 +1,101 @@
+﻿2020-07-15T14:20:15.3651860+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-07-15T14:20:15.3651860+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.17 in Framework clr40 in x86 mode execution started
+2020-07-15T14:20:15.3651860+05:30;VSTestExecutionThread;Info;TestAdapter Location: D:\Project\Active-Active\packages\SpecRun.Runner.3.3.17\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-07-15T14:20:15.3662270+05:30;VSTestExecutionThread;Info;Current UserName: 'adeo', MachineName: 'GNLNB-PG018YN0'
+2020-07-15T14:20:15.4138481+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T14:20:15.4148458+05:30;VSTestExecutionThread;Info;Output folder configured to "D:\Project\Active-Active\TestResults" (default)
+2020-07-15T14:20:15.4148458+05:30;VSTestExecutionThread;Info;Profile: 
+2020-07-15T14:20:15.5574458+05:30;VSTestExecutionThread;Info;Log file path: D:\Project\Active-Active\TestResults\Unnamed project__2020-07-15T142015.log
+2020-07-15T14:20:15.5695106+05:30;Thread#18;Info;Checking activation
+2020-07-15T14:20:15.8983240+05:30;Thread#18;Info;Activated.
+2020-07-15T14:20:15.8994740+05:30;Thread#18;Info;Activation check completed
+2020-07-15T14:20:15.8994740+05:30;Thread#18;Info;Starting test run
+2020-07-15T14:20:16.0484291+05:30;Thread#18;Info;Discovering target: Default
+2020-07-15T14:20:16.0494556+05:30;Thread#18;Info;Discovering tests from assembly: D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T14:20:17.3881282+05:30;Thread#18;Info;Discovered tests from assembly: D:\Project\Active-Active\bin\Debug\Active-Active.dll
+2020-07-15T14:20:17.3921165+05:30:Test Suite Dump
+2020-07-15T14:20:17.3961092+05:30:#0: Unnamed project/ - 
+2020-07-15T14:20:17.3961092+05:30:#1: Default - 
+2020-07-15T14:20:17.3961092+05:30:#2: Active-Active - 
+2020-07-15T14:20:17.3961092+05:30:#3: SimpleGetRequest - 
+2020-07-15T14:20:17.4080715+05:30:#4: Creating a simple Get Request - TestAssembly:Active-Active/Feature:SimpleGetRequest/Scenario:Creating+a+simple+Get+Request
+2020-07-15T14:20:17.4080715+05:30:End: Test Suite Dump
+2020-07-15T14:20:17.4612034+05:30:Thread#0:Scheduler: get next test for thread 0
+2020-07-15T14:20:17.4641938+05:30:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-07-15T14:20:17.4641938+05:30:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-07-15T14:20:17.4691800+05:30:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-07-15T14:20:17.4691800+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-07-15T14:20:17.4691800+05:30:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-07-15T14:20:17.4691800+05:30:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-07-15T14:20:17.4701793+05:30:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-07-15T14:20:17.4711361+05:30:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-07-15T14:20:17.4752024+05:30:Thread #0: creating new test thread executor for Active-Active, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-07-15T14:20:17.4771174+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-07-15T14:20:17.4974176+05:30:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-07-15T14:20:17.4984846+05:30:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-07-15T14:20:17.9062127+05:30:Thread#0:T:-> Loading plugin D:\Project\Active-Active\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-07-15T14:20:17.9221239+05:30:Thread#0:T:-> Using default config
+2020-07-15T14:20:19.2561462+05:30:Thread#0: Test #4/0 is started on thread #0
+2020-07-15T14:20:19.2913970+05:30:Thread#0:B:Given I have Api url
+2020-07-15T14:20:19.6966865+05:30:Thread#0:T:[
+2020-07-15T14:20:19.7017487+05:30:Thread#0:T:14:20:19
+2020-07-15T14:20:19.7027511+05:30:Thread#0:T: 
+2020-07-15T14:20:19.7238633+05:30:Thread#0:T:INF
+2020-07-15T14:20:19.7248624+05:30:Thread#0:T:] 
+2020-07-15T14:20:19.7284572+05:30:Thread#0:T:URL ishttps://reqres.in/api/
+2020-07-15T14:20:19.7853897+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveApiUrl() (0.4s)
+2020-07-15T14:20:19.7862872+05:30:Thread#0:B:And I have URI
+2020-07-15T14:20:19.8012486+05:30:Thread#0:T:[
+2020-07-15T14:20:19.8012486+05:30:Thread#0:T:14:20:19
+2020-07-15T14:20:19.8022458+05:30:Thread#0:T: 
+2020-07-15T14:20:19.8022458+05:30:Thread#0:T:INF
+2020-07-15T14:20:19.8032432+05:30:Thread#0:T:] 
+2020-07-15T14:20:19.8032432+05:30:Thread#0:T:URI is https://reqres.in/api//users
+2020-07-15T14:20:19.8042409+05:30:Thread#0:T:done: SimpleGetRequest.GivenIHaveURI() (0.0s)
+2020-07-15T14:20:19.8042409+05:30:Thread#0:B:When I hit a Restsharp Get Request
+2020-07-15T14:20:20.3454185+05:30:Thread#0:T:[
+2020-07-15T14:20:20.3458272+05:30:Thread#0:T:14:20:20
+2020-07-15T14:20:20.3458272+05:30:Thread#0:T: 
+2020-07-15T14:20:20.3467612+05:30:Thread#0:T:INF
+2020-07-15T14:20:20.3467612+05:30:Thread#0:T:] 
+2020-07-15T14:20:20.3477461+05:30:Thread#0:T:Executing the Get request
+2020-07-15T14:20:20.3477461+05:30:Thread#0:T:[
+2020-07-15T14:20:20.3487429+05:30:Thread#0:T:14:20:20
+2020-07-15T14:20:20.3487429+05:30:Thread#0:T: 
+2020-07-15T14:20:20.3487429+05:30:Thread#0:T:INF
+2020-07-15T14:20:20.3497430+05:30:Thread#0:T:] 
+2020-07-15T14:20:20.3500618+05:30:Thread#0:T:Response Recived from Get Request is 
+2020-07-15T14:20:20.3500618+05:30:Thread#0:T:{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"}
+2020-07-15T14:20:20.3500618+05:30:Thread#0:T:,
+2020-07-15T14:20:20.3507382+05:30:Thread#0:T:{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"}
+2020-07-15T14:20:20.3507382+05:30:Thread#0:T:,
+2020-07-15T14:20:20.3507382+05:30:Thread#0:T:{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}
+2020-07-15T14:20:20.3507382+05:30:Thread#0:T:,
+2020-07-15T14:20:20.3507382+05:30:Thread#0:T:{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"}
+2020-07-15T14:20:20.3517373+05:30:Thread#0:T:,
+2020-07-15T14:20:20.3517373+05:30:Thread#0:T:{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"}
+2020-07-15T14:20:20.3517373+05:30:Thread#0:T:,
+2020-07-15T14:20:20.3517373+05:30:Thread#0:T:{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}
+2020-07-15T14:20:20.3517373+05:30:Thread#0:T:],"ad":
+2020-07-15T14:20:20.3527833+05:30:Thread#0:T:{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}
+2020-07-15T14:20:20.3527833+05:30:Thread#0:T:}
+2020-07-15T14:20:20.3527833+05:30:Thread#0:T:done: SimpleGetRequest.WhenIHitARestsharpGetRequest() (0.5s)
+2020-07-15T14:20:20.3537679+05:30:Thread#0:B:Then I Verify the Result
+2020-07-15T14:20:20.6377047+05:30:Thread#0:T:[
+2020-07-15T14:20:20.6383294+05:30:Thread#0:T:14:20:20
+2020-07-15T14:20:20.6393263+05:30:Thread#0:T: 
+2020-07-15T14:20:20.6403253+05:30:Thread#0:T:INF
+2020-07-15T14:20:20.6413735+05:30:Thread#0:T:] 
+2020-07-15T14:20:20.6418519+05:30:Thread#0:T:per_page Recived from Get Request is 6
+2020-07-15T14:20:20.6423206+05:30:Thread#0:T:[
+2020-07-15T14:20:20.6433469+05:30:Thread#0:T:14:20:20
+2020-07-15T14:20:20.6433469+05:30:Thread#0:T: 
+2020-07-15T14:20:20.6443124+05:30:Thread#0:T:INF
+2020-07-15T14:20:20.6453096+05:30:Thread#0:T:] 
+2020-07-15T14:20:20.6464664+05:30:Thread#0:T:total_pages Recived from Get Request is 2
+2020-07-15T14:20:20.6666384+05:30:Thread#0:T:[
+2020-07-15T14:20:20.6672533+05:30:Thread#0:T:14:20:20
+2020-07-15T14:20:20.6682520+05:30:Thread#0:T: 
+2020-07-15T14:20:20.6692501+05:30:Thread#0:T:INF
+2020-07-15T14:20:20.6702981+05:30:Thread#0:T:] 
+2020-07-15T14:20:20.6702981+05:30:Thread#0:T:StatusCode Recived from Get Request is 200
