@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Active_Active", "Active_Active.csproj", "{C3BB889C-69E7-474E-980D-693D10B81A06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumActive", "..\SeleniumActive\SeleniumActive.csproj", "{06E7F93A-ECF5-4B2A-8D3C-35B0EDDA0E19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
